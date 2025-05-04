@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>khatabook</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="main w-full h-screen bg-white-600">
+      <div class="nav flex justify-between p-[2vw] px-12">
+        <div class="nav-part1">
+          <h1 class="text-2xl font-medium">
+            <span class="text-red-800">Khata</span>book_
+          </h1>
+        </div>
+        <div class="nav-part2 flex gap-12 mr-12 mt-[5px]">
+          <a class="text-md font-medium" href="/">Home</a>
+          <a class="text-md font-medium" href="#"
+            >Create new <span class="text-orange-800">Hisaab</span></a
+          >
+        </div>
+      </div>
+      <div class="hisaabs px-10">
+        <h1 class="text-2xl font-semibold">Create New Hisaab...</h1>
+
+        <form class="" action="/createhisaab" method="post">
+          <input
+            name="title"
+            class="text-md mt-3 px-3 py-2 w-1/2 mb-5 rounded-md bg-zinc-200"
+            type="text"
+            placeholder="Likhooo Bhai Apna Hisaab"
+            name=""
+            id=""
+          />
+          <textarea
+            name="content"
+            class="block resize-none w-1/2 rounded-md min-h-96 bg-zinc-200 p-3"
+            placeholder="shopping or kharchaa aap yha likhoo"
+            name=""
+            id=""
+          ></textarea>
+          <input
+            class="px-6 py-3 mt-4 bg-blue-500 text-white rounded-md"
+            type="submit"
+            value="Create Hisaab"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

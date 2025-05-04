@@ -1,0 +1,7 @@
+daal,
+chini,
+namak,
+rice,
+biscuit,
+kaju,
+badam
