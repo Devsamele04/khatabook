@@ -14,6 +14,20 @@ app.get("/", function (req, res) {
     res.render("index", { files: files });
   });
 });
+// app.get("/create", function (req, res) {
+//   const currentDate = new Date();
+//   const day = String(currentDate.getDate()).padStart(2, "0");
+//   const month = String(currentDate.getMonth() + 1).padStart(2, "0");
+//   const year = currentDate.getFullYear();
+//   const fn = `${day}-${month}-${year}.txt`;
+
+//   // fs.writeFile(`./files/${fn}`,"hey hello",function(err){
+//   //     if(err) throw err;
+//   //     console.log("File created!");
+//   // })
+
+//   res.render("create");
+// });
 
 // create
 app.get("/create", function (req, res) {
